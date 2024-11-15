@@ -1,18 +1,17 @@
-const a = "50";
-const b = 50;
-const c = 100;
-const d = c % b; // 0
-const e = c / 2; // 50
+let personName = "Dalya";
+console.log(`My name is ${personName}`);
 
-const expression1 = b === e; // TRUE
-const expression2 = e < d; // FALSE
+let pets = 3;
+console.log(`I have ${pets} pets`);
 
-// Use comparison operators so all expressions below log to the console as true
-console.log(a == b);
-console.log(b === e);
-console.log(c > b);
-console.log(d === 0);
+let funFact = "I can speak Korean";
+console.log(`Fun fact: ${funFact}`);
 
-// Use logical operators so all expressions below log to the console as true
-console.log(expression1 || expression2); // change && to ||
-console.log(expression1 || expression2); // remove !
+personName = "Deanna";
+console.log(`My partner's name is ${personName}`);
+
+pets = 4;
+console.log(`I have ${pets} pets`);
+
+funFact = "She can speak Spanish";
+console.log(`Fun fact: ${funFact}`);
