@@ -1,4 +1,5 @@
 // TODO: Declare variable 'shout' with the value 'Shout' so it's available to `justShout` and `shoutItAllOut` functions
+const shout = "Shout";
 function justShout() {
   console.log(`${shout}, ${shout}`);
   return;
@@ -20,12 +21,13 @@ function sayLions() {
 }
 
 function sayTigers() {
+  const animal = "Tigers";
   console.log(`and ${animal} and `);
   return;
 }
 
 // TODO: The variable 'bears' should only declared once and 'sayBears' should return 'Bears! OH MY!'.
-const bears = "Bears";
+//const bears = "Bears";
 
 function sayBears() {
   const bears = "Pandas";
